@@ -1,0 +1,109 @@
+/* navigation bar */
+#navbar {
+    overflow: hidden;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    font-size: 1.4rem;
+}
+
+#logo img {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* home */
+#home {
+    overflow: hidden;
+    height: 370px;
+    margin-top: -5px;
+
+}
+
+#home::before {
+    height: 370px;
+    margin-top: -5px;
+}
+
+#home p {
+    font-size: 1.1rem;
+}
+
+#home h2 {
+    font-size: 1.6rem;
+    padding: 7px;
+    margin-top: 86px;
+}
+
+.btn {
+    font-size: 1.3rem;
+}
+
+/* sevices */
+#services {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#servicesContainer {
+    /* display: flex; */
+    height: 1450px;
+    overflow: hidden;
+
+}
+
+#services .box {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 29px;
+    margin: 17px 2;
+    width: 292px;
+}
+.secondary {
+    font-size: 1.7rem;
+    padding: 7px;
+}
+.para {
+    font-size: 1.3rem;
+}
+#services .box img {
+    height: 139px;
+    margin: auto;
+    width: 215px;
+    display: block;
+}
+#servicesContainer h1 {
+    margin-bottom: 38px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.primary {
+    font-size: 1.9rem;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/* contact */
+#contact {
+    overflow: hidden;
+}
+
+/* clients */
+#client-section {
+    overflow: hidden;
+
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    height: ;
+    width: ;
+}
+
+/* footer */
+footer {}
